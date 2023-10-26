@@ -1,0 +1,581 @@
+PCSX2 1.6.0-20200506140834- compiled on May  6 2020
+Savestate version: 0x9a0e0000
+
+Host Machine Init:
+	Operating System =  Microsoft Windows 10 Pro (build 22621), 64-bit
+	Physical RAM     =  16297 MB
+	CPU name         =  Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+	Vendor/Model     =  GenuineIntel (stepping 0A)
+	CPU speed        =  2.903 ghz (6 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 7ffafbbf
+	x86EFlags        =  2c100000
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+
+Reserving memory for recompilers...
+
+Loading plugins from D:\PCSX2\plugins...
+	Bound   GS: GSdx32-AVX2.dll [GSdx 20200506140834 (MSVC 19.25 AVX2/AVX2) 1.2.0]
+	Bound  PAD: LilyPad.dll [LilyPad (20200506140834) 0.12.1]
+(GameDB) 9858 games on record (loaded in 109ms)
+	Bound SPU2: Spu2-X.dll [SPU2-X 20200506140834 2.0.0]
+	Bound CDVD: cdvdGigaherz.dll [cdvdGigaherz 20200506140834 0.11.0]
+	Bound  USB: USBnull.dll [USBnull Driver 20200506140834 0.7.0]
+	Bound   FW: FWnull.dll [FWnull Driver 20200506140834 0.7.0]
+	Bound DEV9: DEV9null.dll [DEV9null Driver 20200506140834 0.5.0]
+Plugins loaded successfully.
+
+HLE Notice: ELF does not have a path.
+
+Initializing plugins...
+	Init GS
+	Init PAD
+	Init SPU2
+	Init CDVD
+	Init USB
+	Init FW
+	Init DEV9
+Plugins initialized successfully.
+
+Patches: No CRC found, using 00000000 instead.
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+	Opening CDVD
+isoFile open ok: D:\PCSX2\Games\Ape Escape 3 [RUS ENG NTSC].iso
+	Image type  = DVD
+isoFile: Invalid layer1 Primary Volume Descriptor
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2110448 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+3.x GL context successfully created
+OpenGL information. GPU: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2. Vendor: NVIDIA Corporation. Driver: NVIDIA 531.68
+INFO: GL_ARB_sparse_texture is NOT SUPPORTED
+INFO: GL_ARB_sparse_texture2 is available
+INFO: GL_ARB_gpu_shader5 is available
+INFO: GL_ARB_shader_image_load_store is available
+INFO: GL_ARB_compute_shader is available
+INFO: GL_ARB_shader_storage_buffer_object is available
+INFO: GL_ARB_texture_view is available
+INFO: GL_ARB_vertex_attrib_binding is available
+INFO: GL_ARB_clear_texture is available
+INFO: GL_ARB_multi_bind is available
+INFO: GL_ARB_direct_state_access is available
+INFO: GL_ARB_texture_barrier is available
+INFO: GL_ARB_get_texture_sub_image is available
+
+Current Renderer: OpenGL (Hardware renderer)
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:0
+McdSlot 0 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd001.ps2
+GSdx Lookup CRC:0
+McdSlot 1 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd002.ps2
+Plugins opened successfully.
+EE/iR5900-32 Recompiler Reset
+	Bios Found: Europe  v02.00(14/06/2004)  Console
+	BIOS rom1 module not found, skipping...
+	BIOS rom2 module not found, skipping...
+	BIOS erom module not found, skipping...
+# Initialize memory (rev:3.70, ctm:196Mhz, cpuclk:147Mhz detected)
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2004-0614, IOP info (CPUID=1f, CACH_CONFIG=0, 2MB, IOP mode)
+ <20040614-100914,ROMconf,PS20200EC20040614.bin:11696>
+# Total accessable memory size: 32 MB (B:2:8:0) (370:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Feb  6 2003 08:38:48
+  CPUID=2e20, BoardID=0, ROMGEN=2004-0614, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\LOADER.00;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+found 1958 symbols
+ELF (cdrom0:\LOADER.00;1) Game CRC = 0x7ACF7E03, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\LOADER.00;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥LOADER.00;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥LOADER.00;1
+0 00100000 000487cc .....
+1 00148800 0015c8a6 .......................
+Loaded, cdrom0:¥LOADER.00;1
+start address 0x100008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Elf entry point @ 0x00100008 about to get recompiled. Load patches first.
+Get Reboot Request From EE
+GSdx Lookup CRC:7ACF7E03
+GSdx Lookup CRC:7ACF7E03
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.1
+    Copyright 1999-2001 (C) Sony Computer Entertainment Inc. 
+IPU mem initalised
+Mov mem initialised
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadmodule: fname cdrom0:¥SCEE_DD¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥SCEE_DD¥PADMAN.IRX;1 args 0 arg 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥SCEE_DD¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 27, ret 0
+loadmodule: fname cdrom0:¥SCEE_DD¥SDRDRV.IRX;1 args 0 arg 
+SDR driver version 4.0.1 (C) SCEI
+ Exit rsd_main 
+loadmodule: id 28, ret 0
+****** Init Config ******
+****** Init DispDraw ******
+(UpdateVSyncRate) Mode Changed to PAL.
+(UpdateVSyncRate) FPS Limit Changed : 50,00 fps
+****** Init SplashSystem ******
+****** Init Font ******
+****** Init IPU ******
+*** MEMRQ = [12312895] *** 
+****** Init GFX ******
+****** Init Help ******
+****** Init Credits ******
+booting from cold
+Package loaded
+Sound initialised
+GFX intiialised
+=^= Data Loaded =^=
+Starting intialisation
+Menu initialised
+Music started
+Stream Buffer 1Bank 32768byte 5banks 163840byte used
+Created instance of IPU
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Restart.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Restart Done.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\LOADER.00;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\LOADER.00;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥ENG.00;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥ENG.00;1
+0 00100000 0062c5d0 ...................................................................................................
+Loaded, cdrom0:¥ENG.00;1
+start address 0x100134
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59,93 fps
+init subscreen
+sg2lib version2005_06_12
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 48 Programs, 28 Pipelines
+Plugins closed successfully.
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+3.x GL context successfully created
+Current Renderer: OpenGL (Hardware renderer)
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:7ACF7E03
+GSdx Lookup CRC:7ACF7E03
+	Opening CDVD
+isoFile open ok: D:\PCSX2\Games\Ape Escape 3 [RUS ENG NTSC].iso
+	Image type  = DVD
+isoFile: Invalid layer1 Primary Volume Descriptor
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2110448 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+McdSlot 0 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd001.ps2
+McdSlot 1 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd002.ps2
+Plugins opened successfully.
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 39 Programs, 28 Pipelines
+Plugins closed successfully.
+Suspending single plugin: PAD
+	Saving PAD
+Recovering single plugin: PAD
+	Loading PAD
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+3.x GL context successfully created
+Current Renderer: OpenGL (Hardware renderer)
+	Opening CDVD
+isoFile open ok: D:\PCSX2\Games\Ape Escape 3 [RUS ENG NTSC].iso
+	Image type  = DVD
+isoFile: Invalid layer1 Primary Volume Descriptor
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2110448 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:7ACF7E03
+GSdx Lookup CRC:7ACF7E03
+McdSlot 0 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd001.ps2
+McdSlot 1 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd002.ps2
+Plugins opened successfully.
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 38 Programs, 28 Pipelines
+Plugins closed successfully.
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+3.x GL context successfully created
+Current Renderer: OpenGL (Hardware renderer)
+	Opening CDVD
+isoFile open ok: D:\PCSX2\Games\Ape Escape 3 [RUS ENG NTSC].iso
+	Image type  = DVD
+isoFile: Invalid layer1 Primary Volume Descriptor
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2110448 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:7ACF7E03
+GSdx Lookup CRC:7ACF7E03
+McdSlot 0 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd001.ps2
+McdSlot 1 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd002.ps2
+Plugins opened successfully.
+(FrameLimiter) Turbo ENABLED.
+(UpdateVSyncRate) FPS Limit Changed : 119,87 fps
+(FrameLimiter) Turbo DISABLED.
+(UpdateVSyncRate) FPS Limit Changed : 59,93 fps
+(FrameLimiter) Turbo ENABLED.
+(UpdateVSyncRate) FPS Limit Changed : 119,87 fps
+(FrameLimiter) Turbo DISABLED.
+(UpdateVSyncRate) FPS Limit Changed : 59,93 fps
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 51 Programs, 28 Pipelines
+Plugins closed successfully.
+Suspending single plugin: PAD
+	Saving PAD
+Recovering single plugin: PAD
+	Loading PAD
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+3.x GL context successfully created
+	Opening CDVD
+isoFile open ok: D:\PCSX2\Games\Ape Escape 3 [RUS ENG NTSC].iso
+	Image type  = DVD
+isoFile: Invalid layer1 Primary Volume Descriptor
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2110448 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+Current Renderer: OpenGL (Hardware renderer)
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:7ACF7E03
+GSdx Lookup CRC:7ACF7E03
+McdSlot 0 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd001.ps2
+McdSlot 1 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd002.ps2
+Plugins opened successfully.
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 47 Programs, 28 Pipelines
+Plugins closed successfully.
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+3.x GL context successfully created
+Current Renderer: OpenGL (Hardware renderer)
+	Opening CDVD
+isoFile open ok: D:\PCSX2\Games\Ape Escape 3 [RUS ENG NTSC].iso
+	Image type  = DVD
+isoFile: Invalid layer1 Primary Volume Descriptor
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2110448 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:7ACF7E03
+GSdx Lookup CRC:7ACF7E03
+McdSlot 0 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd001.ps2
+McdSlot 1 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd002.ps2
+Plugins opened successfully.
+force close
+force close
+force close
+force close
+force close
+(FrameLimiter) Turbo ENABLED.
+(UpdateVSyncRate) FPS Limit Changed : 119,87 fps
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 95 Programs, 28 Pipelines
+Plugins closed successfully.
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+3.x GL context successfully created
+	Opening CDVD
+isoFile open ok: D:\PCSX2\Games\Ape Escape 3 [RUS ENG NTSC].iso
+Current Renderer: OpenGL (Hardware rendere	Image type  = DVD
+r)
+isoFile: Invalid layer1 Primary Volume Descriptor
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2110448 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:7ACF7E03
+GSdx Lookup CRC:7ACF7E03
+McdSlot 0 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd001.ps2
+McdSlot 1 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd002.ps2
+Plugins opened successfully.
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 52 Programs, 28 Pipelines
+Plugins closed successfully.
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+3.x GL context successfully created
+Current Renderer: OpenGL (Hardware renderer)
+	Opening CDVD
+isoFile open ok: D:\PCSX2\Games\Ape Escape 3 [RUS ENG NTSC].iso
+	Image type  = DVD
+isoFile: Invalid layer1 Primary Volume Descriptor
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (2110448 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:7ACF7E03
+GSdx Lookup CRC:7ACF7E03
+McdSlot 0 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd001.ps2
+McdSlot 1 [File]: C:\Users\iftod\OneDrive\Documents\PCSX2\memcards\Mcd002.ps2
+Plugins opened successfully.
+(FrameLimiter) Turbo DISABLED.
+(UpdateVSyncRate) FPS Limit Changed : 59,93 fps
+-->setRestPlayer 1
+-->setRestPlayer 1
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+force close
+(FileMcd) Warning: checksum sector overwritten. (0)
+(FileMcd) Warning: checksum sector overwritten. (0)
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Delete 0 Shaders, 114 Programs, 28 Pipelines
+Plugins closed successfully.
+Shutting down plugins...
+Plugins shutdown successfully.
+(GameDB) Unloading...

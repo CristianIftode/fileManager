@@ -1,0 +1,23 @@
+{
+  "name": "filemanagerprj",
+  "version": "1.0.0",
+  "description": "My file manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianIftode/fileManager.git"
+  },
+  "keywords": [
+    "React",
+    "NodeJS"
+  ],
+  "author": "Sapphire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianIftode/fileManager/issues"
+  },
+  "homepage": "https://github.com/CristianIftode/fileManager#readme"
+}

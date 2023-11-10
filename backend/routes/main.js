@@ -14,7 +14,7 @@ module.exports = function (app) {
         if('path' in req.query){
             path = req.query.path
         }
-
+        
         if(isFolder(base + path)){
             let files = fs.readdirSync(base + path).map(item =>{
                 const isDir = fs.lstatSync(base + path + '/' +item).isDirectory()
@@ -26,7 +26,7 @@ module.exports = function (app) {
                 return {
                     name: item,
                     dir: isDir,
-                    size: (size.size ?? 0) + 'КБ'
+                    size: (size.size ?? 0) + 'Б'
                 }
 
             })
